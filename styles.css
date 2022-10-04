@@ -1,9 +1,8 @@
 #container {
     background-color: #0c87b8;
-    width: 475px;
-    height: 600px;
+    width: 375px;
+    height: 812px;
     border-radius: 20px;
-    min-width: 475px;
     color: #fcf6bd;
     font-family: 'Nunito', sans-serif;
     
@@ -22,7 +21,7 @@ h1 {
     margin-right: auto;
     margin-bottom: 20px;
     background-color: #fd70b2;
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     font-size: 0.75em;
 }

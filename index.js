@@ -8,7 +8,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Melbourne,AU&units=metr
     .then(data => {
             console.log(data)
             let tempHtml = data.main.temp
-            let rainHtml = data.rainEL
+            let rainHtml = data
             let descriptionHtml = data.weather[0].description
             let weatherIconHtml = data.weather[0].icon
             temperatureEl.innerHTML = `Temperature: ${tempHtml}°C`
