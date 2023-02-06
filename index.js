@@ -31,6 +31,20 @@ fetch("https://maps.googleapis.com/maps/api/staticmap?center=40.714%2c%20-73.998
 // var apiEndpoint = "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&date=20221201&datum=MLLW&station=9410230&time_zone=lst_ldt&format=json&units=english";
 
 // // Fetch the tide data
-// fetch(apiEndpoint)
-//   .then(response => response.json())
-//   .then(data => console.log(data))
+// // fetch(apiEndpoint)
+// //   .then(response => response.json())
+// //   .then(data => console.log(data))
+
+
+// GET USER LOCATION:
+
+// if (navigator.geolocation) {
+//    navigator.geolocation.getCurrentPosition(function(position) {
+//      let latitude = position.coords.latitude;
+//      let longitude = position.coords.longitude;
+//      console.log(`Latitude: ${latitude}`);
+//      console.log(`Longitude: ${longitude}`);
+//    });
+//  } else {
+//    console.log("Geolocation is not supported by this browser.");
+//  }
