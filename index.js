@@ -23,3 +23,14 @@ fetch("https://maps.googleapis.com/maps/api/staticmap?center=40.714%2c%20-73.998
    .then(data => console.log(data))
    
 // requestAnimationFrame  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn7pV_fa0zqGcvCDS0nIMbFl4VWTqixzQ&callback=initMap"></script>
+
+
+// TIDE DATA FROM NOAA
+
+// // Define the API endpoint
+// var apiEndpoint = "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&date=20221201&datum=MLLW&station=9410230&time_zone=lst_ldt&format=json&units=english";
+
+// // Fetch the tide data
+// fetch(apiEndpoint)
+//   .then(response => response.json())
+//   .then(data => console.log(data))
